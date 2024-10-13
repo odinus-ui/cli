@@ -1,0 +1,42 @@
+{
+  "name": "odinus-ui-cli",
+  "version": "1.0.0",
+  "description": "A command line interface for Odinus UI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odinus-ui/cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "Ui",
+    "Design",
+    "UI-components",
+    "react.js",
+    "next.js",
+    "astro"
+  ],
+  "author": "Odinus Project",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/odinus-ui/cli/issues"
+  },
+  "homepage": "https://github.com/odinus-ui/cli#readme",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^22.7.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "cli-spinner": "^0.2.10",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "prompts": "^2.4.2"
+  }
+}
